@@ -3,20 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700;800&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-  <link rel="stylesheet" href="./index.desktop.css">
+  <link rel="stylesheet" media="screen and (max-width: 1000px)" href="./index.mobile.css">
+  <link rel="stylesheet" media="screen and (min-width: 1001px)" href="./index.desktop.css">
   <title>Teste Front-End DOK Despachante</title>
 </head>
 <body>
   <header>
-    <img class="img-foto_matheus" src='./assets/foto_matheus.png' alt="" />
     <img class="img-logo_dok" src='./assets/logo_dok.svg' alt="" />    
-    <button class="btn-success-header"type="button" class="btn btn-success">já sou afiliado</button>
     <span class="span-text">Torne-se um afiliado do maior despachante do Brasil</span>
+    <button class="btn-success-header"type="button" class="btn btn-success">já sou afiliado</button>
+    <img class="img-foto_matheus" src='./assets/foto_matheus.png' alt="" />
   </header>
 
   <main>
@@ -112,6 +113,10 @@
         </aside>
         <img class="img-information" src='./assets/carros_parque.png' alt="" />
       </div>
+      <span class="seja-um-afiliado">
+        Seja um afiliado e aproveite todo o potencial deste público!
+
+      </span>
       <div class="information-content">
         <img class="img-information" src='./assets/carteira.png' alt="" />
         <aside class="description-text">

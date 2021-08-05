@@ -204,6 +204,15 @@ input{
   padding: 15px;
 }
 
+.seja-um-afiliado{
+  font-size: 18px;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  margin: 10px 0;
+  text-align: center;
+}
+
 .information-content{
   display: flex;
   align-items: center;
@@ -240,7 +249,7 @@ span{
 
 .quero-ser-afiliado{  
   background-color: #12D01A;
-  width: 40%;
+  width: 35%;
   height: 30px;
   color: #fff;
   font-size: 12px;
