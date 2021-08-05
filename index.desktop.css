@@ -57,16 +57,17 @@ main{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   width: 100%;
 }
 
-.register{
+.section-red{
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   background-color: #E12C30;
-  padding: 30px;
+  padding: 15px;
 }
 
 form{
@@ -100,7 +101,153 @@ input{
   border-radius: 4px;
   border: none;
   outline: none;
-  height: 45px;
+  height: 35px;
   margin: 5px 0;
   padding: 15px;
+}
+
+.title-cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.header-cards{
+  font-size: 20px;
+  color: #676767;
+}
+
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 65%;
+  flex-wrap: wrap;
+}
+
+.card-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F9F9F9;
+  width: 290px;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 15px 0;
+}
+
+.card-circle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E12C30;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.img-card{
+  width: 50px;
+  height: 50px;
+}
+
+.fature{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 10px;
+}
+
+.text-destaque{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.aside-questions{
+  display: flex;
+  flex-direction: column;
+}
+
+.img-carro{
+  width: 180px;
+}
+
+.ja-pensou{
+  display: flex;
+  width: 350px;
+  color: #FFFF;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  margin: 0 0;
+}
+
+.ha-30{
+  display: flex;
+  width: 260px;
+  color: #FFFF;
+  font-size: 19px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.information{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 15px;
+}
+
+.information-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  flex-wrap: wrap;
+}
+
+.description-text{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  text-align: justify;
+  padding: 15px;
+}
+
+.img-information{
+  width: 30%;
+  padding: 20px;
+}
+
+span{
+  font-size: 14px;
+  margin: 5px 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.destaque{
+  font-size: 14px;
+  color: #E12C30;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.quero-ser-afiliado{  
+  background-color: #12D01A;
+  width: 40%;
+  height: 30px;
+  color: #fff;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 4px 15px;
+  border: 0;
+  margin: 5px 0;
 }
