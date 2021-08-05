@@ -124,7 +124,7 @@ input{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 65%;
+  width: 600px;
   flex-wrap: wrap;
 }
 
@@ -214,15 +214,15 @@ input{
 
 .description-text{
   display: flex;
-  width: 50%;
+  width: 300px;
   flex-direction: column;
   text-align: justify;
   padding: 15px;
 }
 
 .img-information{
-  width: 30%;
-  padding: 20px;
+  width: 255px;
+  padding: 10px;
 }
 
 span{
