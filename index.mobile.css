@@ -4,7 +4,7 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    background-image: url('../assets/carros_avenida.png') !important;
+    background-image: url('./assets/carros_avenida.png');
     background-position: contain;
   }
 
