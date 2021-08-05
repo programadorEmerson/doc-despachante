@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <link rel="stylesheet" href="./index.desktop.css">
   <title>Teste Front-End DOK Despachante</title>
@@ -15,9 +15,38 @@
   <header>
     <img class="img-foto_matheus" src='./assets/foto_matheus.png' alt="" />
     <img class="img-logo_dok" src='./assets/logo_dok.svg' alt="" />    
-    <button type="button" class="btn btn-success">já sou afiliado</button>
+    <button class="btn-success-header"type="button" class="btn btn-success">já sou afiliado</button>
     <span class="span-text">Torne-se um afiliado do maior despachante do Brasil</span>
   </header>
+
+  <main>
+    <section class="register">
+      <iframe 
+        width="280"
+        height="200"
+        src="https://www.youtube.com/embed/ZHMvV8sR_Ig"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+      <form>
+        <input
+          type="text"
+          name="nome"
+          class="nome"
+          placeholder="Informe seu nome"
+        />
+        <input
+          type="text"
+          name="email"
+          class="email"
+          placeholder="Informe seu email"
+        />
+        <button class="btn-success-form" type="button" class="btn btn-success">Sim, quero ser um afiliado</button>
+      </form>
+    </section>
+  </main>
 </body>
 <script src='./scripts/index.js' integrity="" ></script>
 </html>
